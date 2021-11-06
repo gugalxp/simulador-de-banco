@@ -1,0 +1,91 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(11, 78, 133);
+    margin-top: -1.2rem;
+}
+
+
+/* fundo geral */
+
+.container-sacar {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(11, 78, 133);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*  container do input  */
+
+.mb-3 {
+    background: black;
+    padding-top: 12rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    margin-bottom: -6rem;
+    height: 100%;
+    transition: .5s;
+    position: fixed;
+    margin-top: 2rem;
+}
+
+.mb-3 .botao {
+    background: rgb(11, 78, 133);
+    border-color: rgb(11, 78, 133);
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    color: white;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bolder;
+    transition: .5s;
+}
+
+.mb-3 .botao:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.mb-3 h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.mb-3 p a {
+    text-decoration: line-through;
+    color: white;
+}
+
+
+/* responsive */
+
+@media (max-width: 434px) {
+    .mb-3 h2 {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .mb-3 .botao {
+        margin-left: 3em;
+    }
+    .mb-3 a {
+        margin-left: 3em;
+    }
+    .mb-3 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa eletrônico</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <div class="container-sacar">
+        <div class="mb-3">
+            <div class="alinhamento">
+                <img class="img-responsive" src="img/banco.png" style="width:300px; height:200px; font-size: 50px; margin-top:-6rem; margin-bottom:1rem; object-fit: cover; border: 2px solid rgb(11, 78, 133); ">
+                <hr style="color: rgb(255, 255, 255);;">
+                <h2>Quanto deseja sacar?</h2>
+                <input type="number" class="form-control" name="saque" id="saque" placeholder="Digite um valor aqui.. ex: 100">
+                <input class="botao" type="button" value="SACAR AGORA" onclick="verify()">
+                <p><a href="#">bank.com.br</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="res"> </div>
+
+
+    <script src="js/simulado.js"></script>
+
+</body>
+
+</html>

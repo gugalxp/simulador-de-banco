@@ -4,10 +4,6 @@ function verify() {
     var res = window.document.getElementById('res')
     var ver = sacar.value
 
-    var total = ver
-    var ced = 50
-    var totalced = 0
-
     // Validação das condições do valor ser múltiplo de 5 e não aceitar o formulário nulo.
     if (ver == 0) {
 
@@ -33,10 +29,9 @@ function verify() {
 
     while (ver >= 100) {
 
-        res.document.write('<img src="img/cem.png" style="width: 200px;" height="100px">')
+        document.write('<img src="img/cem.png" style="width: 200px;" height="100px">')
         ver = (ver - 100)
-        res.document.write("Quantidade de notas de 100: " + ver)
-        Headers('Location: index.html')
+
 
     }
 

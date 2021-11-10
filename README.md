@@ -1,3 +1,3 @@
 # Simulador de Banco
 
-##### Desafio feito para passar em uma vaga de estágio que fui aprovado!
+##### Um dos dois desafio feito para passar em uma vaga de estágio que fui aprovado!
